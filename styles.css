@@ -1,23 +1,36 @@
-background
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: black;
 }
+
 header {
     background-color: #09ec2b;
     justify-content: center;
-    color: #fff;
-    padding: 25px;
+    color: #f8f4f4;
+    padding: 30px;
     text-align: center;
+    font-family: fantasy;
 }
+
 .container {
-    max-width: 800px;
+    width: 100%;
     margin: 0 auto;
     padding: 20px;
+    font-family: fantasy;
+    text-align: center;
+    background-color: #023d0b;
+    color: #f8f4f4;
 }
+
 p {
     line-height: 1.5;
     text-align: center;
+    font-family: fantasy;
+    width: 100%;
+}
+
+.buttons {
+    size: 25px;
 }
