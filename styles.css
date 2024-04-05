@@ -1,0 +1,23 @@
+background
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #09ec2b;
+    justify-content: center;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+p {
+    line-height: 1.5;
+    text-align: center;
+}
