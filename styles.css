@@ -58,18 +58,18 @@ header h1{
     color: #074909;
 }
 
-.button-container {
-    display: flex;
-    justify-content: space-between;
-}
-    
-.button{
-    font-size: 25px;
+.d-grid button{
+    color: #025202;
+    background-color: rgb(215, 249, 112);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 25px;
-    margin: 0;
-    width: 25px;
+    font-size: 20px;
 }
 
+
+.d-grid button.btn-primary:hover {
+    background-color: #09ac4a; /* Change background color on hover */
+    border-color: #020303; /* Change border color on hover */
+    color: #fff; /* Change text color on hover */
+}
 
   
