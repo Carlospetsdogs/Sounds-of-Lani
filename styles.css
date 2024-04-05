@@ -32,12 +32,16 @@ header h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     background-color: #023d0b;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: rgb(215, 249, 112);
     color: #f8f4f4;
     margin: auto;
 }
 
 .flex-container h2{
     font-size: 50px;
+    color: rgb(215, 249, 112);
 }
 
 .flex-container p{
@@ -45,7 +49,7 @@ header h1{
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
-    color: #eef4ee;     
+    color: rgb(215, 249, 112);     
 }
 
 .sticky-paragraph{
@@ -69,9 +73,9 @@ header h1{
 
 
 .d-grid button.btn-primary:hover {
-    background-color: #09ac4a; /* Change background color on hover */
-    border-color: #020303; /* Change border color on hover */
-    color: #fff; /* Change text color on hover */
+    background-color: #09ac4a; 
+    border-color: #020303; 
+    color: #fff; 
 }
 
 .d-grid h2{
@@ -82,4 +86,23 @@ header h1{
     text-align: center;
     text-decoration: underline;
    
+}
+
+.navbar#navbar {
+   background-color: #074909;
+   border-radius: 25px;
+   justify-content: space-evenly;
+}
+
+.navbar#navbar button {
+    color: rgb(5, 92, 5);
+    font-size: 25px;
+    border-radius: 8px;
+    background-color: rgb(215, 249, 112);
+}
+
+.navbar#navbar button:hover {
+    background-color: #09ac4a; 
+    border-color: #020303; 
+    color: #fff;
 }
