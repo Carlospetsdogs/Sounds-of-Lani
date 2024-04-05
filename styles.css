@@ -1,36 +1,75 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: black;
+   background-image: url(./images/spongebob-squarepants-bikini-bottom-art-wallpaper-scaled.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position:top;
 }
 
 header {
-    background-color: #09ec2b;
-    justify-content: center;
-    color: #f8f4f4;
-    padding: 30px;
+    background-image: url(./images/676fc5678f063b7ba42b7fc9da85989c.jpg);
+    background-size: cover;
+    background-position: auto;
+    background-repeat: no-repeat;
+    padding: 100px;
     text-align: center;
-    font-family: fantasy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #074909;
 }
 
-.container {
+header h1{
+    font-size: 60px;
+    background-color: ;
+}
+
+
+.flex-container {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    margin: 0 auto;
     padding: 20px;
-    font-family: fantasy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     background-color: #023d0b;
     color: #f8f4f4;
+    margin: auto;
 }
 
-p {
+.flex-container h2{
+    font-size: 50px;
+}
+
+.flex-container p{
     line-height: 1.5;
     text-align: center;
-    font-family: fantasy;
-    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #eef4ee;     
 }
 
-.buttons {
-    size: 25px;
+.sticky-paragraph{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: #074909;
 }
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+    
+.button{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 25px;
+    margin: 0;
+    width: 25px;
+}
+
+
+  
