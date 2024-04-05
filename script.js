@@ -1,8 +1,3 @@
-// function playSound(soundFile) {
-//     var audio = new Audio(soundFile);
-//     audio.play();
-// }
-
 var currentAudio = null; // Variable to store the currently playing audio
 
 function playSound(soundFile) {
