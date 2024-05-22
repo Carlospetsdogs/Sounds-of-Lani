@@ -1,8 +1,8 @@
 body {
-   background-image: url(./images/spongebob-squarepants-bikini-bottom-art-wallpaper-scaled.jpg);
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position:top;
+    background-image: url(./images/spongebob-squarepants-bikini-bottom-art-wallpaper-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 header {
@@ -16,13 +16,12 @@ header {
     color: #074909;
 }
 
-header h1{
+header h1 {
     font-size: 65px;
     text-align: left;
     text-decoration: underline;
-   
-}
 
+}
 
 .flex-container {
     display: inline-flex;
@@ -40,20 +39,20 @@ header h1{
     margin: auto;
 }
 
-.flex-container h2{
+.flex-container h2 {
     font-size: 50px;
     color: rgb(215, 249, 112);
 }
 
-.flex-container p{
+.flex-container p {
     line-height: 1.5;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
-    color: rgb(215, 249, 112);     
+    color: rgb(215, 249, 112);
 }
 
-.sticky-paragraph{
+.sticky-paragraph {
     position: bottom;
     bottom: 0;
     left: 0;
@@ -66,34 +65,10 @@ header h1{
     border-radius: 20px;
 }
 
-.d-grid button{
-    color: #025202;
-    background-color: rgb(215, 249, 112);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-}
-
-
-.d-grid button.btn-primary:hover {
-    background-color: #09ac4a; 
-    border-color: #020303; 
-    color: #fff; 
-}
-
-.d-grid h2{
-    color: #000801;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 65px;
-    padding: 0 5px;
-    text-align: center;
-    text-decoration: underline;
-   
-}
-
 .navbar#navbar {
-   background-color: #074909;
-   border-radius: 25px;
-   justify-content: space-evenly;
+    background-color: #074909;
+    border-radius: 25px;
+    justify-content: space-evenly;
 }
 
 .navbar#navbar button {
@@ -104,7 +79,44 @@ header h1{
 }
 
 .navbar#navbar button:hover {
-    background-color: #09ac4a; 
-    border-color: #020303; 
+    background-color: #09ac4a;
+    border-color: #020303;
     color: #fff;
 }
+
+.d-grid {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.d-grid button {
+    color: #025202;
+    background-color: rgb(215, 249, 112);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+.d-grid button.btn-primary:hover {
+    background-color: #09ac4a;
+    border-color: #020303;
+    color: #fff;
+}
+
+.d-grid h2 {
+    color: #000801;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 65px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: underline;
+    position: inherit;
+}
+
+
